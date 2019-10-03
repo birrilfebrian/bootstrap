@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth; /* agar scrollingnya smooth karna saya menggunakan**/
+}
+.judulosis{
+    margin-top:100px; /* disini agar terdapat jarac **/
+}
+
+.item{
+    margin: 0 20px;
+}
+
+.navbar-brand{
+    margin-left:10px;
+}
+.jarak {
+    margin: 100px;
+}
+
+
+/*.how { 
+    transition: all .2s ease-in-out; /*ini agar transisi saat windows load dan slidingnya lebih smooth karna bawan owl tidak smooth **/
+  /*  }
+    
+    .how:hover { 
+    transform: scale(1.1); /* agar image di zoom in **/
+   /* filter:blur(1px); ; /* agar saat di zoom in ngeblur **/
+  /*  } **/
+
+    #he:hover{
+        background: red;
+        transform: scale(1.1);
+        color:white;
+    }
+    #ho:hover{
+        background: red;
+        color:white;
+    }
+    #hi:hover{
+        transform: scale(1.1);
+    }
+    #newr{
+        color:grey;
+    }
+.carousel-caption{
+    text-shadow:1px 1px gray;
+}
+
+.formbg{
+    padding: 20px ;
+    background:rgb(220 220 220);
+}
+
+#cekbok {
+    margin-top:20px;
+}
+
+#butt{
+    margin-top:10px;
+}
+#border {
+    border:1px black;
+}
+ .aboutu , .kaki{
+     margin-top:50px;
+     color:grey;
+ }
+
+ #jarak2{
+     margin-top:5px;
+ }
+
+ #jarak3 {
+     margin-top:-16px;
+     margin-left: -3px;
+ }
+
+ #sizeaboutu{
+     font-size: 14px;
+ }
+ #wa{
+    margin-top:10px;
+     margin-left:-3px;
+ }
+
+
+ .text-link:link , .text-link:visited{
+     color:grey;
+     text-decoration: none;
+ }
+
+ .copyright{
+     text-align: right;
+     margin-top:-22px;
+ }
+ .pay{
+     margin-top:-6px;
+ }
+
+ 
+ .how:after{
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .efek:hover .how:after {
+    opacity: 1;
+  }
+  
+  .efek:hover .middle {
+    opacity: 1;
+  }
+  
+  .texthover {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 10px 5px;
+  }
